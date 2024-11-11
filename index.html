@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Cards</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .card-container {
+            display: flex;
+            gap: 20px;
+        }
+        .card {
+            width: 300px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 20px;
+            text-align: center;
+        }
+        .card-content h3 {
+            font-size: 1.5em;
+            color: #333;
+        }
+        .card-content p {
+            color: #777;
+            margin: 10px 0;
+        }
+        .card-content .price {
+            font-size: 1.2em;
+            color: #27ae60;
+            font-weight: bold;
+        }
+        .card-content button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #27ae60;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .card-content button:hover {
+            background-color: #2ecc71;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <img src="/assets/WhatsApp Image 2024-09-22 at 17.19.29_b9635659.jpg" alt="Product 1">
+            <div class="card-content">
+                <h3>photocard mina</h3>
+                <p>Dia memiliki karakter yang cenderung pendiam dan lembut dibandingkan anggota lainnya, sehingga memberikan keseimbangan yang menenangkan dalam grup. Mina sangat dihargai oleh para penggemar karena ketekunan dan dedikasinya, terutama setelah ia kembali tampil setelah berjuang melawan masalah kecemasan yang sempat membuatnya hiatus dari aktivitas grup.
+
+
+
+
+
+
+                </p>
+                <p class="price">Rp1.000.000</p>
+                <button>Beli Sekarang</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/assets/WhatsApp Image 2024-09-22 at 17.19.30_70709be6.jpg" alt="Product 2">
+            <div class="card-content">
+                <h3>photocard sana</h3>
+                <p>Sana memiliki aura yang ceria dan ekspresif, serta kepribadian yang menyenangkan yang menjadikannya pusat perhatian di grup. Dia sering memancarkan energi positif dan berperan dalam menciptakan suasana yang ceria di antara para anggota. Selain itu, dia memiliki daya tarik yang khas dan suara yang manis, sehingga sering berada di bagian-bagian ikonik dalam lagu-lagu TWICE.</p>
+                <p class="price">Rp1.000.000</p>
+                <button>Beli Sekarang</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/assets/WhatsApp Image 2024-09-22 at 17.19.31_7d414775.jpg" alt="Product 3">
+            <div class="card-content">
+                <h3>photocard momo</h3>
+                <p>Momo memiliki suara yang khas dan sering menambahkan nuansa unik pada lagu-lagu TWICE dengan vokalnya. Di luar panggung, Momo memiliki kepribadian yang ceria dan penuh semangat. Dia dikenal sebagai anggota yang sangat menyukai makanan, terutama daging, dan sering kali terlihat lucu dan imut di depan penggemar karena kecintaannya pada makanan. Pesona alami dan kepribadian yang rendah hati membuatnya sangat dicintai oleh penggemar, dan dia kerap mendapat julukan "Momoring" dari penggemarnya.</p>
+                <p class="price">Rp1.000.000</p>
+                <button>Beli Sekarang</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
